@@ -1,0 +1,28 @@
+.skills-box{
+    max-width: 900px;
+    max-height: 950px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.skills-about h5{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}

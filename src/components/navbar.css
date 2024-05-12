@@ -1,0 +1,21 @@
+.navbar{
+background-color: rgb(24, 95, 12);
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: yellow;
+}
+
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: yellow;
+}
+
+.navbar-toggler{
+   background-color: white;
+}

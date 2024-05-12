@@ -1,0 +1,36 @@
+.projects-box{
+    max-width: 900px;
+    max-height: 950px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    background: linear-gradient(rgb(24, 95, 12),rgb(54, 146, 54));
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: yellow;
+}
