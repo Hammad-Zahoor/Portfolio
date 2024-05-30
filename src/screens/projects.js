@@ -7,7 +7,7 @@ function projects() {
         <>
             <Navbar />
             <div className='projects-box'>
-                <h1 style={{color:'rgb(137, 241, 146)'}}>Click to See Project Details</h1>
+                <h1 style={{ color: 'rgb(137, 241, 146)' }}>Click to See Project Details</h1>
                 <div className='projects-about'>
                     <p class="d-inline-flex gap-1">
                         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
@@ -20,6 +20,21 @@ function projects() {
                             <p>It uses Express and Node JS for backend and integrated with a dynamic React JS frontend and MySQL for database.</p>
                             <p>It uses machine learning techniques in Python to craft a recommendation engine for enhancing user experience.</p>
                             <p>Safety Measures like encryption, decryption, filters are applied according to Industry Standards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='projects-about'>
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+                            Chat App
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample7">
+                        <div class="card card-body">
+                            <p>Developed a responsive chat application using React and Firebase, enabling real-time messaging, user authentication,
+                                and management features.</p>
+                            <p>Implemented functionalities for searching users, sending multimedia messages, and secure logouts to ensure dynamic and
+                                private communication.</p>
                         </div>
                     </div>
                 </div>
@@ -76,9 +91,9 @@ function projects() {
                     <div class="collapse" id="collapseExample5">
                         <div class="card card-body">
                             <p>Developed a real-time object speed detection system using Python and OpenCV, capable of tracking the speed of moving
-                            objects in a live video feed.</p>
+                                objects in a live video feed.</p>
                             <p>Objectives included implementing computer vision algorithms and calculations for integrating real-time processing for
-                            seamless performance.</p>
+                                seamless performance.</p>
                         </div>
                     </div>
                 </div>
